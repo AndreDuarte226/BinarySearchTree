@@ -14,15 +14,6 @@ public void main() {
    tree.addNode(40);
    tree.addNode(29);
    tree.addNode(19);
-   
-    System.out.println();
-    tree.preOrder();
-
-    System.out.println();
-    tree.inOrder();
-
-    System.out.println();
-    tree.postOrder();
 
     System.out.println();
     System.out.println("Quantidade de folhas: " + tree.countLeaves());
