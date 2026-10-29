@@ -27,7 +27,21 @@ Um nó folha é aquele que não possui nenhum filho.
 Exemplo de utilização da arvore
 
 No arquivo Main.java, foram inseridos os seguintes valores na árvore:
-
+    
+   tree.addNode(10);
+   tree.addNode(5);
+   tree.addNode(15);
+   tree.addNode(3);
+   tree.addNode(7);
+   tree.addNode(12);
+   tree.addNode(20);
+   tree.addNode(9);
+   tree.addNode(22);
+   tree.addNode(13);
+   tree.addNode(40);
+   tree.addNode(29);
+   tree.addNode(19);
+   
 Depois de inserir os valores, o programa organiza a árvore seguindo as regras de uma Árvore de Busca Binária, colocando os números menores à esquerda e os maiores à direita.
 Os nós folhas são os valores 3, 9, 13, 19, 22 e 29, pois não possuem filhos.
-Ao executar o programa, a contagem de folhas será 6.
+Ao executar o programa, a contagem de folhas será 5.
